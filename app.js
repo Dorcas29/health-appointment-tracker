@@ -30,6 +30,8 @@ app.get('/dentist', (req, res) => res.render('dentist'));
 app.get('/login', (req, res) => res.render('login'));
 app.get('/signup', (req, res) => res.render('signup'));
 app.get('/reviews', (req, res) => res.render('reviews'));
+app.get('/test', (req, res) => res.send('Test route is working'));
+
 
 // Start server
 app.listen(PORT, () => {
